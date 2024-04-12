@@ -1,4 +1,4 @@
-# AR NFTS GreenIt
+# AR NFTS GreenIt made by Team DEV-HOUR in Vihaan 007 Hackathon
 
 ## Table of Contents
 - [Features](#features)
@@ -23,3 +23,12 @@ To get started with AR NFTs, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/GreenIt-NFTs-AR.git
+
+## Usage
+Once the webpage is loaded, you can interact with the AR NFTs by clicking and dragging to rotate the models. Additionally, you can toggle auto-rotation for a more dynamic view.
+
+## Contributing
+Contributions are welcome! If you have any ideas or improvements, feel free to open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
