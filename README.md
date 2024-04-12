@@ -22,4 +22,4 @@ To get started with AR NFTs, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ar-clothing.git
+   git clone https://github.com/your-username/GreenIt-NFTs-AR.git
