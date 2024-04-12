@@ -1,4 +1,5 @@
-# AR NFTS GreenIt made by Team DEV-HOUR in Vihaan 007 Hackathon
+# AR NFTS GreenIt 
+- Team DEV-HOUR Vihaan 007 Hackathon
 
 ## Table of Contents
 - [Features](#features)
