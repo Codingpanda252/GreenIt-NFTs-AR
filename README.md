@@ -1,5 +1,5 @@
 # AR NFTS GreenIt 
-- Team DEV-HOUR Vihaan 007 Hackathon
+  Team DEV-HOUR Vihaan 007 Hackathon
 
 ## Table of Contents
 - [Features](#features)
