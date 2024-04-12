@@ -1,107 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>GreenIt NFTs - AR</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+      }
 
-<head>
-  <title>GreenIt NFTs - AR</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-    }
+      header {
+        text-align: center;
+        padding: 16px;
+        background-color: #03ac25;
+        color: #fff;
+        font-size: 1.5em;
+      }
 
-    header {
-      text-align: center;
-      padding: 16px;
-      background-color: #03ac25;
-      color: #fff;
-      font-size: 1.5em;
-    }
+      #card {
+        margin: 3em 1em;
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        overflow: auto;
+        background-color: #fff;
+      }
 
-    #card {
-      margin: 3em 1em; 
-      display: flex;
-      flex-direction: column;
-      max-width: 600px;
-      border-radius: 8px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-      overflow: auto; 
-      background-color: #fff;
-    }
+      model-viewer {
+        width: 100%;
+        height: 400px;
+        background-color: #e0e0e0;
+        --poster-color: #ffffff00;
+        margin-bottom: 16px;
+        border-radius: 0 0 8px 8px;
+      }
 
-    model-viewer {
-      width: 100%;
-      height: 400px;
-      background-color: #e0e0e0;
-      --poster-color: #ffffff00;
-      margin-bottom: 16px;
-      border-radius: 0 0 8px 8px;
-    }
+      model-viewer:not(:last-child) {
+        border-bottom: 1px solid #ddd;
+      }
 
-    model-viewer:not(:last-child) {
-      border-bottom: 1px solid #ddd;
-    }
+      footer {
+        text-align: center;
+        padding: 16px;
+        background-color: #03ac25;
+        color: #fff;
+        border-radius: 0 0 8px 8px;
+        font-size: 0.8em;
+      }
+    </style>
+    <script
+      src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js"
+      defer
+    ></script>
+  </head>
 
-    footer {
-      text-align: center;
-      padding: 16px;
-      background-color: #03ac25;
-      color: #fff;
-      border-radius: 0 0 8px 8px;
-      font-size: 0.8em;
-    }
-  </style>
-  <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
-</head>
+  <body>
+    <header>
+      <h1>GreenIt NFTs</h1>
+    </header>
 
-<body>
-  <header>
-    <h1>GreenIt NFTs</h1>
-  </header>
+    <div id="card">
+      <model-viewer
+        src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Rikshaw.glb?v=1712899956894"
+        ios-src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Rikshaw.usdz?v=1712899961604"
+        poster="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Rikshaw.png?v=1712899957940"
+        alt="Rikshaw NFT"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar
+      >
+      </model-viewer>
 
-  <div id="card">
-    <model-viewer src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Rikshaw.glb?v=1712899956894"
-      ios-src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Rikshaw.usdz?v=1712899961604"
-      poster="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Rikshaw.png?v=1712899957940"
-      alt="Rikshaw NFT"
-      shadow-intensity="1"
-      camera-controls
-      auto-rotate
-      ar>
-    </model-viewer>
+      <model-viewer
+        src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/TajMahal.glb?v=1712900634989"
+        ios-src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/TajMahal.usdz?v=1712900637068"
+        poster="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/TajMahal.png?v=1712900636237"
+        alt="Taj Mahal NFT"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar
+      >
+      </model-viewer>
 
-    <model-viewer src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/TajMahal.glb?v=1712900634989"
-      ios-src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/TajMahal.usdz?v=1712900637068"
-      poster="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/TajMahal.png?v=1712900636237"
-      alt="Taj Mahal NFT"
-      shadow-intensity="1"
-      camera-controls
-      auto-rotate
-      ar>
-    </model-viewer>
+      <model-viewer
+        src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Mango.glb?v=1712901048542"
+        ios-src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Mango.usdz?v=1712901043829"
+        poster="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Mango.png?v=1712901050319"
+        alt="Mango Fruit NFT"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar
+      >
+      </model-viewer>
+    </div>
 
-    <model-viewer src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Mango.glb?v=1712901048542"
-      ios-src="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Mango.usdz?v=1712901043829"
-      poster="https://cdn.glitch.global/6be43cf8-f88e-4686-93d0-ce1e861c9ffd/Mango.png?v=1712901050319"
-      alt="Mango Fruit NFT"
-      shadow-intensity="1"
-      camera-controls
-      auto-rotate
-      ar>
-    </model-viewer>
+    <footer>&copy; 2023 GreenIt</footer>
 
-  </div>
-
-  <footer>
-    &copy; 2023 GreenIt
-  </footer>
-
-  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-</body>
-
+    <script
+    type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"
+  ></script>
+  </body>
 </html>
